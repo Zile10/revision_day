@@ -1,58 +1,169 @@
-<html lang="en"><head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/style.css">
-  <title>Document</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#" title="Goes Nowhere">Home</a></li>
-        <li><a href="#" title="Goes Nowhere">About</a></li>
-        <li><a href="#" title="Goes Nowhere">Contact</a></li>
-        <li><a href="#" title="Goes Nowhere">FAQ</a></li>
-      </ul>
-    </nav>
-  </header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#" title="Goes Nowhere">Home</a></li>
+          <li><a href="#" title="Goes Nowhere">About</a></li>
+          <li><a href="#" title="Goes Nowhere">Contact</a></li>
+          <li><a href="#" title="Goes Nowhere">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
 
-
-  <main>
-    <div class="container">
-      <h1>Welcome</h1>
-      <div class="heading-section">
-        <h2>Dis guy</h2>
-        <h2>My bru</h2>
+    <main>
+      <div class="container">
+        <h1>Welcome</h1>
+        <div class="heading-section">
+          <h2>Dis guy</h2>
+          <h2>My bru</h2>
+        </div>
+        <div class="content-section">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            aliquam culpa necessitatibus explicabo earum eum aut eaque, quisquam
+            cumque illum cum modi assumenda asperiores minus! Pariatur tenetur
+            voluptates atque explicabo.
+          </p>
+          <img src="https://picsum.photos/id/237/200/200" alt="" />
+        </div>
+        <button class="hehe">hehehehe</button>
       </div>
-      <div class="content-section">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          aliquam culpa necessitatibus explicabo earum eum aut eaque, quisquam
-          cumque illum cum modi assumenda asperiores minus! Pariatur tenetur
-          voluptates atque explicabo.
+
+      <hr />
+
+      <section id="contact">
+        <div class="contact">
+          <h2>Contact Us!</h2>
+          <h4>Write us a message using the form below :</h4>
+
+          <div class="form">
+            <form action="https://formspree.io/f/moqbljbe" method="POST">
+              <div>
+                <label for="name">Name</label>
+                <input
+                  type="name"
+                  id="name"
+                  placeholder="John"
+                  name="name"
+                  required
+                />
+              </div>
+              <div>
+                <label for="surname">Surname</label>
+                <input
+                  type="surname"
+                  id="surname"
+                  placeholder="Doe"
+                  name="surname"
+                  required
+                />
+              </div>
+              <div>
+                <label for="email">Email address</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="name@example.com"
+                  name="email"
+                  required
+                />
+              </div>
+              <div>
+                <label for="message">Message:</label>
+                <textarea id="message" rows="3" name="message"></textarea>
+              </div>
+
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section>
+        <div class="grid-container">
+          <div class="grid-main-content-1">
+            <h2>Main Content 1</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+              eum quod, perferendis sequi quibusdam eaque quas. Inventore amet,
+              fuga sapiente non ex velit voluptate eligendi architecto
+              necessitatibus eius vel dicta id excepturi autem exercitationem
+              voluptatibus sit quis illo accusantium? Velit ut aut sunt dolore
+              iste doloribus in hic distinctio explicabo.
+            </p>
+          </div>
+          <div class="grid-content-2">
+            <h2>Content 2</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+              eum quod, perferendis sequi quibusdam eaque quas. Inventore amet,
+              fuga sapiente non ex velit voluptate eligendi architecto
+              necessitatibus eius vel dicta id excepturi autem exercitationem
+              voluptatibus sit quis illo accusantium? Velit ut aut sunt dolore
+              iste doloribus in hic distinctio explicabo.
+            </p>
+          </div>
+        </div>
+      </section>
+    
+      <hr />
+
+      <section>
+        <div class="flex-container">
+          <div class="flex-main-content-1">
+            <h2>Main Content 1</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+              eum quod, perferendis sequi quibusdam eaque quas. Inventore amet,
+              fuga sapiente non ex velit voluptate eligendi architecto
+              necessitatibus eius vel dicta id excepturi autem exercitationem
+              voluptatibus sit quis illo accusantium? Velit ut aut sunt dolore
+              iste doloribus in hic distinctio explicabo.
+            </p>
+          </div>
+          <div class="flex-content-2">
+            <h2>Content 2</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis
+              eum quod, perferendis sequi quibusdam eaque quas. Inventore amet,
+              fuga sapiente non ex velit voluptate eligendi architecto
+              necessitatibus eius vel dicta id excepturi autem exercitationem
+              voluptatibus sit quis illo accusantium? Velit ut aut sunt dolore
+              iste doloribus in hic distinctio explicabo.
+            </p>
+          </div>
+        </div>
+      </section>
+      
+    </main>
+
+    <footer>
+      <div class="container">
+        <p id="copyright">
+          © Copyright 2022, John's Designs. All Rights Reserved
         </p>
-        <img src="https://picsum.photos/id/237/200/200" alt="">
       </div>
-      <button class="hehe">hehehehe</button>
-    </div>
-  </main>
+    </footer>
 
-  <footer>
-    <div class="container">
-      <p id="copyright">© Copyright 2022, John's Designs. All Rights Reserved</p>
-    </div>
-  </footer>
+    <script>
+      const hehe = document.querySelector(".hehe");
 
-
-  <script>
-    const hehe = document.querySelector('.hehe');
-
-    hehe.addEventListener('click', () => {
-      hehe.innerHTML = "STOP TOUCHING ME!"
-      setTimeout(() => {
-        hehe.innerHTML = "hehehehe"
-      }, 1000);
-    })
-  </script>
-</body></html>
+      hehe.addEventListener("click", () => {
+        hehe.innerHTML = "STOP TOUCHING ME!";
+        setTimeout(() => {
+          hehe.innerHTML = "hehehehe";
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>
