@@ -1,0 +1,58 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" title="Goes Nowhere">Home</a></li>
+        <li><a href="#" title="Goes Nowhere">About</a></li>
+        <li><a href="#" title="Goes Nowhere">Contact</a></li>
+        <li><a href="#" title="Goes Nowhere">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <div class="container">
+      <h1>Welcome</h1>
+      <div class="heading-section">
+        <h2>Dis guy</h2>
+        <h2>My bru</h2>
+      </div>
+      <div class="content-section">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          aliquam culpa necessitatibus explicabo earum eum aut eaque, quisquam
+          cumque illum cum modi assumenda asperiores minus! Pariatur tenetur
+          voluptates atque explicabo.
+        </p>
+        <img src="https://picsum.photos/id/237/200/200" alt="">
+      </div>
+      <button class="hehe">hehehehe</button>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p id="copyright">© Copyright 2022, John's Designs. All Rights Reserved</p>
+    </div>
+  </footer>
+
+
+  <script>
+    const hehe = document.querySelector('.hehe');
+
+    hehe.addEventListener('click', () => {
+      hehe.innerHTML = "STOP TOUCHING ME!"
+      setTimeout(() => {
+        hehe.innerHTML = "hehehehe"
+      }, 1000);
+    })
+  </script>
+</body></html>
